@@ -27,8 +27,19 @@ echo "<h1>Hello $fname $lname</h1>";
 
 ?>
 
+<!--- Learning array --->
+<?php
 
+$people = array (
+    "Rutul",
+    "Priyank",
+    "Mahak");
 
+$people["first"] = "John";
+
+echo "My name is $people[2]";
+
+?>
 
 </body>
 </html>
